@@ -1,8 +1,8 @@
-1ere version de mon CV Développeur.
+1ERE VERSION DE MON CV DÉVELOPPEUR.
 
 
 
-propriétés : 
+PROPRIÉTÉS : 
 
 
 mise en page générale en 2 parties, aside à gauche, main à droite.
@@ -14,7 +14,7 @@ technique : flex-box, no-wrap.
 
 
 
-reste à faire :
+RESTE À FAIRE :
 
 
 mise en page responsive tous formats(smartphone, tablette, écrans pc en fenêtre réduite.
@@ -24,4 +24,4 @@ intéractions Javascript.
 
 
 
-Salut!!!
+SALUT!!!
