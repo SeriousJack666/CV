@@ -1,0 +1,220 @@
+/*Sections principales*/
+
+body {
+	background-color: rgb(233, 231, 230);
+}
+
+.page_wrapper {
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	line-height: 1.7em;
+	font-family: Arial, sans-serif;
+}
+
+aside {
+	max-width: 350px;
+	min-width: 350px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	background-color: rgb(93, 164, 217);
+	color: white;
+	box-shadow: 0px 0px 5px 5px rgb(195, 193, 192);
+}
+
+main {
+	max-width: 70%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around; 
+}
+
+
+
+
+/*Dans aside*/
+
+.photoID {
+	
+	background-image: url("../img/damien.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 350px;
+	max-height: 350px;
+}
+
+.photoID > div {
+	margin: 270px 0 0 62px;
+}
+
+.photoID h1 {
+	margin-bottom: 0;
+}
+
+.photoID p {
+	margin-top: 7px;
+}
+
+.subSectionAside {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 25px 40px 0 0; 
+}
+
+.subSectionAside i {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.ecrit {
+	width: 80%;
+	display: flex;
+	flex-flow: column nowrap;
+	margin-top: 0;
+}
+
+.ecrit p, .ecrit h2, .ecrit input, .ecrit h1 {
+	margin-top: 0;
+}
+
+input {
+	width: 100%;
+}
+
+aside .hr {
+	border: 1px solid rgb(71, 131, 194) ;
+	border-width: 0 0 1px 0;
+	margin: 25px 0 20px 62px;
+}
+
+#light_weight {
+	font-weight: lighter;
+	font-size: 95%;
+}
+
+.num, .mail, .adresse {
+	font-weight: bolder;
+	font-size: 110%;
+}
+
+.subSectionAside:last-of-type {
+	height: 400px;
+}
+
+.barre_competences {
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+.barre_competences > div:last-of-type {
+	margin-bottom: 30px;
+}
+
+.num, .mail, .barre_competences p {
+	margin-bottom: 0;
+}
+
+
+
+
+
+/*dans main*/
+
+
+.article {
+	box-shadow: 0px 0px 5px 5px rgb(195, 193, 192);
+	background-color: white; 
+	margin-bottom: 20px;
+	padding: 40px 0 60px 0;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.article > i:not(.fa-plane) {
+	width: 16%;
+	min-width: 90px;
+	display: flex;
+	justify-content: center;
+	padding-top: 18px;
+}
+
+.article .hr {
+	border: 1px solid rgb(152, 140, 138);
+	border-width: 0 0 1px 0;
+	margin: 35px 0;
+}
+
+.article > div {
+	width: 80%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.ecrit_main {
+	width: 95%;
+	display: flex;
+	flex-flow: column nowrap;
+	color: rgb(152, 140, 138);
+}
+
+.article h1 {
+	color: rgb(118, 114, 112);
+	margin: 20px 0 55px 0;
+}
+
+.ligne_sous_titre {
+	margin-bottom: 8px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	color: rgb(118, 114, 112);
+}
+
+.article h2 {
+	font-size: 1.4em;
+	margin: 0 15px 0 0;
+	color: rgb(118, 114, 112);
+}
+
+.ligne_sous_titre p {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.date {
+	color: rgb(93, 164, 217);
+}
+
+.article p {
+	margin: 0;
+}
+
+.rotate-45-left:before {
+    display: block;
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.fa-plane {
+	width: 16%;
+	text-align: center;
+	padding-top: 18px;
+}
+
+.bande_logos {
+	width: 80%;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
