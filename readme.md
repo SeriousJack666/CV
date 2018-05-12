@@ -3,8 +3,8 @@
 propriétés : 
 
 mise en page générale en 2 parties, aside à gauche, main à droite.
-responsive note 5/10
-technique : flex-box, no-wrap
+responsive note 5/10.
+technique : flex-box, no-wrap.
 
 
 reste à faire :
