@@ -17,7 +17,7 @@ technique : flex-box, no-wrap.
 RESTE À FAIRE :
 
 
-mise en page responsive tous formats(smartphone, tablette, écrans pc en fenêtre réduite.
+mise en page responsive tous formats(smartphone, tablette, écrans pc en fenêtre réduite).
 
 intéractions Javascript.
 
