@@ -5,7 +5,7 @@
 propriétés : 
 
 
-mise en page générale en 2 parties, aside à gauche, main à droite.
+mise en page générale en 2 parties, aside à gauche, main à droite.\n
 responsive note 5/10.
 technique : flex-box, no-wrap.
 
