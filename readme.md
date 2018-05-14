@@ -29,5 +29,5 @@ SALUT!!!
 
 
 
-*[Voir la preview](https://htmlpreview.github.io/?https://github.com/SeriousJack666/CV/blob/master/index.html)
+* [Voir la preview](https://htmlpreview.github.io/?https://github.com/SeriousJack666/CV/blob/master/index.html)
 
